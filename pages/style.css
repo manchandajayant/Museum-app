@@ -1,0 +1,33 @@
+body {
+  background: #ffba00;
+  text-align: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+main {
+  background: blanchedalmond;
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+  border-radius: 5px;
+}
+
+#content {
+  text-align: center;
+}
+
+h1 {
+  margin: 3rem 1rem 6rem 1rem;
+}
+
+#msg {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+label {
+  padding: 2rem;
+  margin: 2rem;
+}
