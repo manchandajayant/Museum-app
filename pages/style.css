@@ -13,19 +13,21 @@ main {
   border-radius: 5px;
 }
 
+#content {
+  text-align: center;
+}
+
 h1 {
   margin: 3rem 1rem 6rem 1rem;
 }
 
-.artobject {
-  max-width: 80%;
-  max-height: 20rem;
-  margin: 1rem;
+#msg {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
 }
 
-h2 {
-  display: block;
-  margin-block-start: 0.83em;
-  margun
-
+label {
+  padding: 2rem;
+  margin: 2rem;
 }
