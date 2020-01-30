@@ -1,0 +1,62 @@
+body {
+  background: #ffba00;
+  text-align: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+}
+
+main {
+  background: blanchedalmond;
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0;
+  border-radius: 5px;
+}
+
+form {
+  margin: 2rem auto;
+  width: 50%;
+  min-width: 15rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+.formSection {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+label {
+  display: inline-block;
+  cursor: default;
+}
+
+section {
+  display: block;
+}
+
+.comment {
+  margin: 1rem auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 50%;
+  min-width: 15rem;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5rem;
+}
+
+h1 {
+  margin: 3rem 1rem 6rem 1rem;
+}
