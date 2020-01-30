@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Impressiontist Paintings</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-detail.css" />
+    <script src="detail-page.js"></script>
   </head>
 
   <body>
@@ -20,21 +21,23 @@
       </section>
       <section id="comments">
         <h2>Comments</h2>
-        <section id="comment">
-          <h3>Jay Said</h3>
-          <p>This is my favourite</p>
+        <section class="comment">
+          <h3 id="j">Jayant said:</h3>
+          <p id="j">"This is definitely one of my favorites!"</p>
         </section>
       </section>
-      <form action="">
-        <div>
-          <label for="name">Jayant</label>
+      <form onsubmit="submitComment(); return false">
+        <div class="formSection">
+          <label for="name">Name:</label>
           <input type="text" id="name" />
         </div>
-        <div>
-          <label for="msg">MESSAGE</label>
-          <textarea name="" id=""></textarea>
+        <div class="formSection">
+          <label for="msg">Message:</label>
+          <textarea id="msg"></textarea>
         </div>
-        <div class=""><button>Post Your comment</button></div>
+        <div class="button">
+          <button type="default">Post your comment</button>
+        </div>
       </form>
     </main>
   </body>
