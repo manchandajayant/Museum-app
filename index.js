@@ -346,22 +346,20 @@ const data = {
 const paintings = data.artObjects;
 console.log(paintings);
 
-// for (let id = 0; id < array.length; id++) {
-//   const element = array[id];
-
-// }
-
 for (let i = 0; i < paintings.length; i++) {
   const painting = paintings[i];
   console.log(painting.webImage.url);
   const gallery = document.getElementById("gallery");
   console.log("gallery", gallery);
 
-  //const imgRef = document.createElement("href");
-  //console.log(imgRef);
+  const imgRef = document.createElement("a");
+  console.log(imgRef);
+  imgRef.href = "./pages/detail-page.html";
   const imgCreate = document.createElement("img");
   console.log(imgCreate);
 
   imgCreate.src = painting.webImage.url;
   gallery.appendChild(imgCreate);
+  document.body.appendChild(imgRef);
+  imgRef.appendChild(imgCreate);
 }
